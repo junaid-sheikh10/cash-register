@@ -25,6 +25,7 @@ function clickHandler(){
     if(b>0){
          if(b>c){
              var m="do you wanna get hit"
+             showoutput(m)
          }
          else if(c>b){
 
