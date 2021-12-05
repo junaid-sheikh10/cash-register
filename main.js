@@ -24,14 +24,17 @@ function clickHandler(){
     var c=cash.value;
     if(b>0){
          if(b>c){
+             console.log("do you wanna get hit")
              var m="do you wanna get hit"
              showoutput(m)
          }
          else if(c>b){
 
-             calculatereturn (b,c)
+            calculatereturn (b,c)
+            showoutput("calculated")
          }
          else{
+             console.log("wash clothes")
              showoutput("do you want to wash clothes")
          }
          var returnamount =c-b;
